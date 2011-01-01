@@ -34,3 +34,7 @@ android.os.Process.killProcess(android.os.Process.myPid());
         return super.onOptionsItemSelected(item);
     }
 
+
+
+# Android如何提醒View控件重回
+调用 postInvalidate() 之后系统将调用onDraw(Canvas c) 方法重绘
